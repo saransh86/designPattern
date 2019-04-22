@@ -1,0 +1,37 @@
+{
+    "compilerOptions": {
+        "skipLibCheck": true,
+        "moduleResolution": "node",
+        "target": "es5",
+        "module": "commonjs",
+        "types": ["reflect-metadata"],
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "sourceMap": true,
+        "resolveJsonModule": true,
+        "esModuleInterop": true,
+        "lib": [
+            "es5",
+            "es6",
+            "dom"
+        ],
+        "allowJs": true,
+        "strict": true,
+        "outDir": "dist"
+    },
+    "include": [
+        "interface/**/*.ts",
+        "entities/**/*.ts",
+        "factory/**/*.ts",
+        "constants/**/*.ts",
+        "main.ts"
+        //"./**/*.ts"
+    ],
+    "exclude": [
+        "node_modules",
+        "reports",
+        "data",
+        "screenshots",
+        "environments",
+    ]
+}
